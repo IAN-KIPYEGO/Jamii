@@ -32,7 +32,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">
-                    <ul className="flex gap-5 px-1 text-xl">
+                    <ul className="flex gap-10 px-1 text-xl">
                         <li>
                             <NavLink to='/' className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "text-red-500 font-bold underline" : ""

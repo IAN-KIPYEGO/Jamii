@@ -17,7 +17,7 @@ const DonationCard = ({ donate }) => {
 
                     <p className='text-xl font-bold mt-2' style={{ color: `${text_color}` }}>${price}</p>
 
-                    <button className='btn text-white mt-2' style={{ backgroundColor: `${button_bg}` }}>View Details</button>
+                    <button className='btn text-white mt-2 border-none' style={{ backgroundColor: `${button_bg}` }}>View Details</button>
                 </div>
             </div>
         </div>

@@ -10,8 +10,8 @@ const Banner = () => {
                         </div>
 
                         <div className="form-control mt-10">
-                            <label className="input-group flex justify-center">
-                                <input type="text" placeholder="Search Here..." className="input w-1/2" />
+                            <label className="input-group  flex justify-center">
+                                <input type="text" placeholder="Search here..." className="input input-bordered w-1/2" />
                                 <span className="bg-red-500 text-white">Search</span>
                             </label>
                         </div>

@@ -8,12 +8,12 @@ const HomeCard = ({ card }) => {
         <Link to={`/card/${id}`}>
             <div className='rounded-xl' style={{ backgroundColor: `${card_bg}` }}>
                 <img className='rounded-t-xl w-full' src={image} alt="" />
-                <div className='p-3 py-6'>
+                <div className='p-3 pt-6'>
                     <p className='w-36 text-center py-1 font-bold rounded-md mb-2' style={{ backgroundColor: `${category_bg}`, color: `${text_color}` }}>
                         {category}
                     </p>
 
-                    <h2 className='text-xl font-bold' style={{ color: `${text_color}` }}>
+                    <h2 className='text-xl font-bold h-14' style={{ color: `${text_color}` }}>
                         {title}
                     </h2>
                 </div>
