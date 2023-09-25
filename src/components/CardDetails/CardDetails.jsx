@@ -2,6 +2,7 @@ import { Link, useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { saveDonation } from "../Utility/LocatStorage";
+import { useState } from "react";
 
 
 const CardDetails = () => {
@@ -11,9 +12,17 @@ const CardDetails = () => {
     const card = cards.find(card => card.id === idInt);
 
 
+    const [clickCount, setClickCount] = useState(0);
+
     const handleDonate = () => {
-        saveDonation(idInt);
-        toast("Donate successfully");
+        if (clickCount === 0) {
+            saveDonation(idInt);
+            toast('Donation successful');
+        } else {
+            toast('You have already donated');
+        }
+
+        setClickCount(prevClickCount => prevClickCount + 1);
     }
 
 

@@ -7,9 +7,9 @@
         "category_bg": "#b3d1ff",
         "card_bg": "#e6f0ff",
         "text_color": "#005ce6",
-        "button_bg": "#003d99",
+        "button_bg": "#005ce6",
         "description": "Fund healthcare programs aimed at improving the health and wellbeing of communities. Your generous contribution will help in providing vital medical services, access to medications, and healthcare education to those in need, making a positive impact on their lives.",
-        "price": 200
+        "price": 200.00
     },
     {
         "id": 2,
@@ -19,9 +19,9 @@
         "category_bg": "#ffb3b3",
         "card_bg": "#ffe6e6",
         "text_color": "#e60000",
-        "button_bg": "#b30000",
+        "button_bg": "#e60000",
         "description": "Support education initiatives striving to provide access to quality education for all. Your donation will contribute to creating a brighter future for children and young adults by ensuring they have the educational resources and opportunities they deserve.",
-        "price": 210
+        "price": 210.00
     },
     {
         "id": 3,
@@ -31,9 +31,9 @@
         "category_bg": "#c2f0c2",
         "card_bg": "#ebfaeb",
         "text_color": "#2eb82e",
-        "button_bg": "#196619",
+        "button_bg": "#2eb82e",
         "description": "Contribute to the Warm Clothing Drive and help collect jackets, sweaters, and blankets for those in need during cold weather. Your generosity will bring warmth and comfort to individuals who might otherwise face the harsh elements without adequate clothing.",
-        "price": 280
+        "price": 280.00
     },
     {
         "id": 4,
@@ -43,9 +43,9 @@
         "category_bg": "#ffd9b3",
         "card_bg": "#fff2e6",
         "text_color": "#e67300",
-        "button_bg": "#b35900",
+        "button_bg": "#e67300",
         "description": "Contribute to building an emergency food supply, aiding families facing food insecurity during crises and disasters. Your donation will provide sustenance and hope, ensuring that families have access to essential nutrition during challenging times.",
-        "price": 290
+        "price": 290.00
     },
     {
         "id": 5,
@@ -55,9 +55,9 @@
         "category_bg": "#ffb3ec",
         "card_bg": "#ffe6f9",
         "text_color": "#e600ac",
-        "button_bg": "#b30086",
+        "button_bg": "#e600ac",
         "description": "Contribute to initiatives that aim to protect and preserve our environment. Your support will play a crucial role in addressing environmental challenges, fostering sustainability, and securing a healthier planet for future generations.",
-        "price": 300
+        "price": 300.00
     },
     {
         "id": 6,
@@ -67,9 +67,9 @@
         "category_bg": "#99ffff",
         "card_bg": "#e6ffff",
         "text_color": "#00b3b3",
-        "button_bg": "#008080",
+        "button_bg": "#00b3b3",
         "description": "Support projects that empower women and promote gender equality. Your donation will aid in providing opportunities, resources, and a supportive environment to women, enabling them to achieve their full potential and create lasting positive change in their communities.",
-        "price": 250
+        "price": 250.00
     },
     {
         "id": 7,
@@ -79,9 +79,9 @@
         "category_bg": "#d1e0e0",
         "card_bg": "#f0f5f5",
         "text_color": "#5c8a8a",
-        "button_bg": "#476b6b",
+        "button_bg": "#5c8a8a",
         "description": "Support initiatives striving to provide safe and stable housing for vulnerable individuals and families. Your contribution will make a significant difference in ensuring everyone has a secure and comfortable place to call home, promoting dignity and stability in their lives.",
-        "price": 270
+        "price": 270.00
     },
     {
         "id": 8,
@@ -91,9 +91,9 @@
         "category_bg": "#ffb3d9",
         "card_bg": "#ffe6f2",
         "text_color": "#e60073",
-        "button_bg": "#b30059",
+        "button_bg": "#e60073",
         "description": "Contribute to animal welfare programs and rescue efforts aimed at protecting and caring for animals. Your support will help in providing shelter, medical care, and advocacy for animals in need, contributing to a more compassionate and humane society.",
-        "price": 200
+        "price": 200.00
     },
     {
         "id": 9,
@@ -103,9 +103,9 @@
         "category_bg": "#e6b3ff",
         "card_bg": "#f7e6ff",
         "text_color": "#9900e6",
-        "button_bg": "#7700b3",
+        "button_bg": "#9900e6",
         "description": "Support projects that ensure access to clean and safe drinking water for communities in need. Your donation will transform lives by providing a fundamental necessity for health and wellbeing, making a lasting impact on the communities served.",
-        "price": 300
+        "price": 300.00
     },
     {
         "id": 10,
@@ -115,9 +115,9 @@
         "category_bg": "#ffffb3",
         "card_bg": "#ffffe6",
         "text_color": "#999900",
-        "button_bg": "#666600",
+        "button_bg": "#999900",
         "description": "Support programs that empower and equip young individuals with essential skills and opportunities for a brighter future. Your contribution will provide mentorship, education, and resources to help youth reach their potential and become future leaders.",
-        "price": 310
+        "price": 310.00
     },
     {
         "id": 11,
@@ -127,9 +127,9 @@
         "category_bg": "#ffd9b3",
         "card_bg": "#fff2e6",
         "text_color": "#e67300",
-        "button_bg": "#b35900",
+        "button_bg": "#e67300",
         "description": "Preserve and promote art, heritage, and cultural practices through various initiatives and projects. Your support will help safeguard the richness and diversity of our cultural heritage, ensuring that these valuable traditions continue to thrive and inspire generations to come.",
-        "price": 320
+        "price": 320.00
     },
     {
         "id": 12,
@@ -139,9 +139,9 @@
         "category_bg": "#e6b3ff",
         "card_bg": "#f7e6ff",
         "text_color": "#4d0066",
-        "button_bg": "#260033",
+        "button_bg": "#4d0066",
         "description": "Support community development projects that improve infrastructure, education, healthcare, and overall well-being. Your donation will contribute to creating thriving communities, empowering individuals, and fostering a sense of belonging and progress for all.",
-        "price": 350
+        "price": 350.00
     },
     {
         "id": 13,
@@ -151,9 +151,9 @@
         "category_bg": "#b3d1ff",
         "card_bg": "#e6f0ff",
         "text_color": "#005ce6",
-        "button_bg": "#003d99",
+        "button_bg": "#005ce6",
         "description": "Fund healthcare programs aimed at improving the health and wellbeing of communities. Your generous contribution will help in providing vital medical services, access to medications, and healthcare education to those in need, making a positive impact on their lives.",
-        "price": 200
+        "price": 200.00
     },
     {
         "id": 14,
@@ -163,9 +163,9 @@
         "category_bg": "#ffb3b3",
         "card_bg": "#ffe6e6",
         "text_color": "#e60000",
-        "button_bg": "#b30000",
+        "button_bg": "#e60000",
         "description": "Support education initiatives striving to provide access to quality education for all. Your donation will contribute to creating a brighter future for children and young adults by ensuring they have the educational resources and opportunities they deserve.",
-        "price": 210
+        "price": 210.00
     },
     {
         "id": 15,
@@ -175,9 +175,9 @@
         "category_bg": "#c2f0c2",
         "card_bg": "#ebfaeb",
         "text_color": "#2eb82e",
-        "button_bg": "#196619",
+        "button_bg": "#2eb82e",
         "description": "Contribute to the Warm Clothing Drive and help collect jackets, sweaters, and blankets for those in need during cold weather. Your generosity will bring warmth and comfort to individuals who might otherwise face the harsh elements without adequate clothing.",
-        "price": 280
+        "price": 280.00
     },
     {
         "id": 16,
@@ -187,9 +187,9 @@
         "category_bg": "#ffd9b3",
         "card_bg": "#fff2e6",
         "text_color": "#e67300",
-        "button_bg": "#b35900",
+        "button_bg": "#e67300",
         "description": "Contribute to building an emergency food supply, aiding families facing food insecurity during crises and disasters. Your donation will provide sustenance and hope, ensuring that families have access to essential nutrition during challenging times.",
-        "price": 290
+        "price": 290.00
     },
     {
         "id": 17,
@@ -199,9 +199,9 @@
         "category_bg": "#ffb3ec",
         "card_bg": "#ffe6f9",
         "text_color": "#e600ac",
-        "button_bg": "#b30086",
+        "button_bg": "#e600ac",
         "description": "Contribute to initiatives that aim to protect and preserve our environment. Your support will play a crucial role in addressing environmental challenges, fostering sustainability, and securing a healthier planet for future generations.",
-        "price": 300
+        "price": 300.00
     },
     {
         "id": 18,
@@ -211,9 +211,9 @@
         "category_bg": "#99ffff",
         "card_bg": "#e6ffff",
         "text_color": "#00b3b3",
-        "button_bg": "#008080",
+        "button_bg": "#00b3b3",
         "description": "Support projects that empower women and promote gender equality. Your donation will aid in providing opportunities, resources, and a supportive environment to women, enabling them to achieve their full potential and create lasting positive change in their communities.",
-        "price": 250
+        "price": 250.00
     },
     {
         "id": 19,
@@ -223,9 +223,9 @@
         "category_bg": "#d1e0e0",
         "card_bg": "#f0f5f5",
         "text_color": "#5c8a8a",
-        "button_bg": "#476b6b",
+        "button_bg": "#5c8a8a",
         "description": "Support initiatives striving to provide safe and stable housing for vulnerable individuals and families. Your contribution will make a significant difference in ensuring everyone has a secure and comfortable place to call home, promoting dignity and stability in their lives.",
-        "price": 270
+        "price": 270.00
     },
     {
         "id": 20,
@@ -235,9 +235,9 @@
         "category_bg": "#ffb3d9",
         "card_bg": "#ffe6f2",
         "text_color": "#e60073",
-        "button_bg": "#b30059",
+        "button_bg": "#e60073",
         "description": "Contribute to animal welfare programs and rescue efforts aimed at protecting and caring for animals. Your support will help in providing shelter, medical care, and advocacy for animals in need, contributing to a more compassionate and humane society.",
-        "price": 200
+        "price": 200.00
     },
     {
         "id": 21,
@@ -247,9 +247,9 @@
         "category_bg": "#e6b3ff",
         "card_bg": "#f7e6ff",
         "text_color": "#9900e6",
-        "button_bg": "#7700b3",
+        "button_bg": "#9900e6",
         "description": "Support projects that ensure access to clean and safe drinking water for communities in need. Your donation will transform lives by providing a fundamental necessity for health and wellbeing, making a lasting impact on the communities served.",
-        "price": 300
+        "price": 300.00
     },
     {
         "id": 22,
@@ -259,9 +259,9 @@
         "category_bg": "#ffffb3",
         "card_bg": "#ffffe6",
         "text_color": "#999900",
-        "button_bg": "#666600",
+        "button_bg": "#999900",
         "description": "Support programs that empower and equip young individuals with essential skills and opportunities for a brighter future. Your contribution will provide mentorship, education, and resources to help youth reach their potential and become future leaders.",
-        "price": 310
+        "price": 310.00
     },
     {
         "id": 23,
@@ -271,9 +271,9 @@
         "category_bg": "#ffd9b3",
         "card_bg": "#fff2e6",
         "text_color": "#e67300",
-        "button_bg": "#b35900",
+        "button_bg": "#e67300",
         "description": "Preserve and promote art, heritage, and cultural practices through various initiatives and projects. Your support will help safeguard the richness and diversity of our cultural heritage, ensuring that these valuable traditions continue to thrive and inspire generations to come.",
-        "price": 320
+        "price": 320.00
     },
     {
         "id": 24,
@@ -283,8 +283,8 @@
         "category_bg": "#e6b3ff",
         "card_bg": "#f7e6ff",
         "text_color": "#4d0066",
-        "button_bg": "#260033",
+        "button_bg": "#4d0066",
         "description": "Support community development projects that improve infrastructure, education, healthcare, and overall well-being. Your donation will contribute to creating thriving communities, empowering individuals, and fostering a sense of belonging and progress for all.",
-        "price": 350
+        "price": 350.00
     }
 ]

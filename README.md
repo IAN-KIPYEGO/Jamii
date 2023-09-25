@@ -2,7 +2,7 @@
 
 ## Project features
 
-Here are three key features of my project:
+Here are some key features of my project:
 
 1. Category-specific Details:
 
