@@ -8,6 +8,7 @@ const Donation = () => {
     const donations = useLoaderData();
 
     const [donateMoney, setDonateMoney] = useState([]);
+    const [dataLength, setDataLength] = useState(4);
 
     useEffect(() => {
         const storedDonationIds = getStoredDonation();
@@ -21,8 +22,13 @@ const Donation = () => {
         <div className="container mx-auto px-5 my-10">
             <div className="grid grid-col-1 lg:grid-cols-2 gap-5">
                 {
-                    donateMoney.map(donate => <DonationCard key={donate.id} donate={donate}></DonationCard>)
+                    donateMoney.slice(0, dataLength).map(donate => <DonationCard key={donate.id} donate={donate}></DonationCard>)
                 }
+            </div>
+            <div className={dataLength === donateMoney.length && 'hidden'}>
+                <div onClick={() => setDataLength(donateMoney.length)} className="flex justify-center mt-10">
+                    <button className="btn bg-green-700 text-white font-bold">See All</button>
+                </div>
             </div>
         </div>
     );
