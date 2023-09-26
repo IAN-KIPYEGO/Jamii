@@ -52,13 +52,13 @@ const Statistics = () => {
 
             <div className='flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-20 mb-20'>
                 <div className='flex gap-3'>
-                    <p>Your Donation</p>
+                    <p>Total Donation</p>
                     <div className='flex items-center'>
                         <div style={{ backgroundColor: '#00C49F' }} className='w-20 h-3 rounded-sm'></div>
                     </div>
                 </div>
                 <div className='flex gap-3'>
-                    <p>Total Donation</p>
+                    <p>Your Donation</p>
                     <div className='flex items-center'>
                         <div style={{ backgroundColor: '#FF444A' }} className='w-20 h-3 rounded-sm'></div>
                     </div>
