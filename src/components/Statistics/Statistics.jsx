@@ -1,11 +1,19 @@
 import { PieChart, Pie, Cell } from 'recharts';
+import { getStoredDonation } from '../Utility/LocatStorage';
 
 
 const Statistics = () => {
+    const localData = getStoredDonation();
+    const selectedItem = localData.length;
+    const totalItemCount = 24;
+    const selectedPercentage = (selectedItem / totalItemCount) * 100;
+    const unselectedPercentage = 100 - selectedPercentage;
+
     const data = [
-        { name: 'Group A', value: 400 },
-        { name: 'Group B', value: 300 },
+        { name: 'Selected Items', value: selectedPercentage },
+        { name: 'Unselected Items', value: unselectedPercentage },
     ];
+
     const COLORS = ['#FF444A', '#00C49F'];
 
     const RADIAN = Math.PI / 180;
