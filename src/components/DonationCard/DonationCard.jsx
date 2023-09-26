@@ -5,7 +5,7 @@ const DonationCard = ({ donate }) => {
     return (
         <div>
             <div className='rounded-xl flex flex-col md:flex-row gap-2' style={{ backgroundColor: `${card_bg}` }}>
-                <img className='md:rounded-l-xl md:w-64' src={image} alt="" />
+                <img className='md:rounded-l-xl md:w-72 lg:w-72' src={image} alt="" />
                 <div className='p-3 py-6'>
                     <p className='w-36 text-center py-1 font-bold rounded-md mb-2' style={{ backgroundColor: `${category_bg}`, color: `${text_color}` }}>
                         {category}

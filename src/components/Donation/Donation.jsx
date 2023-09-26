@@ -34,12 +34,6 @@ const Donation = () => {
                     </button>
                 </div>
             )}
-
-            {/* <div className={dataLength === donateMoney.length && 'hidden'}>
-                <div onClick={() => setDataLength(donateMoney.length)} className="flex justify-center mt-10">
-                    <button className="btn bg-green-700 text-white font-bold">See All</button>
-                </div>
-            </div> */}
         </div>
     );
 };
