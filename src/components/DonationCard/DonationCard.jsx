@@ -11,11 +11,13 @@ const DonationCard = ({ donate }) => {
                         {category}
                     </p>
 
-                    <h2 className='text-2xl font-bold mt-3'>
-                        {title}
-                    </h2>
+                    <div>
+                        <h2 className='text-2xl font-bold mt-3 h-14 flex items-center'>
+                            {title}
+                        </h2>
+                    </div>
 
-                    <p className='text-xl font-bold mt-2' style={{ color: `${text_color}` }}>${price}</p>
+                    <p className='text-xl font-bold my-2' style={{ color: `${text_color}` }}>${price}.00</p>
 
                     <button className='btn text-white mt-2 border-none' style={{ backgroundColor: `${button_bg}` }}>View Details</button>
                 </div>

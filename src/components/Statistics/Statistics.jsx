@@ -20,17 +20,18 @@ const Statistics = () => {
             </text>
         );
     };
+
     return (
         <div>
-            <div className='flex justify-center'>
-                <PieChart width={800} height={400}>
+            <div className='flex justify-center items-center mt-10 mb-10'>
+                <PieChart width={400} height={400}>
                     <Pie
                         data={data}
                         cx="50%"
                         cy="50%"
                         labelLine={false}
                         label={renderCustomizedLabel}
-                        outerRadius={120}
+                        outerRadius={150}
                         fill="#8884d8"
                         dataKey="value"
                     >
@@ -41,7 +42,7 @@ const Statistics = () => {
                 </PieChart>
             </div>
 
-            <div className='flex justify-center gap-20'>
+            <div className='flex flex-col lg:flex-row justify-center items-center gap-5 lg:gap-20 mb-20'>
                 <div className='flex gap-3'>
                     <p>Your Donation</p>
                     <div className='flex items-center'>
