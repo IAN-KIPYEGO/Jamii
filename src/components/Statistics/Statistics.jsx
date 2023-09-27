@@ -1,11 +1,14 @@
 import { PieChart, Pie, Cell } from 'recharts';
 import { getStoredDonation } from '../Utility/LocatStorage';
+import { useLoaderData } from 'react-router-dom';
 
 
 const Statistics = () => {
+    const totalData = useLoaderData();
+
     const localData = getStoredDonation();
     const selectedItem = localData.length;
-    const totalItemCount = 24;
+    const totalItemCount = totalData.length;
     const selectedPercentage = (selectedItem / totalItemCount) * 100;
     const unselectedPercentage = 100 - selectedPercentage;
 
