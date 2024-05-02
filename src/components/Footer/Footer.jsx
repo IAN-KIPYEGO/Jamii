@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                 </nav>
                 <aside>
-                    <p>Copyright © 2023 - All right reserved by ismat jerin</p>
+                    <p>Copyright © 2023 - All right reserved by Ian Kipyego</p>
                 </aside>
             </footer>
         </div>
